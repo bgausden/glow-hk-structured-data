@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "image": [
+    "https://static.wixstatic.com/media/6957cb_7db2e61b282345628ab75a6863756925~mv2.jpeg",
+    "https://static.wixstatic.com/media/6957cb_23007357d42f41f7981b782a1ab3ed9c~mv2.jpeg",
+    "https://static.wixstatic.com/media/6957cb_cb37e05299d84f91b0b0e2bb7485b0bc~mv2.jpeg",
+    "https://static.wixstatic.com/media/6957cb_8a3323d2da30406cbae4a148773e165d~mv2.jpeg",
+    "https://static.wixstatic.com/media/6957cb_aa6d6a248dc5415e976975f3b8e6a247~mv2.jpeg"
+  ],
+  "@id": "http:glowspa.hk",
+  "name": "Glow",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1 Wellington Street",
+    "addressLocality": "Central",
+    "addressRegion": "Hong Kong",
+    "addressCountry": "HK"
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Renu Malani"
+    }
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 22.281062,
+    "longitude": 114.156188
+  },
+  "url": "http://glowspa.hk",
+  "telephone": "+85225255198",
+  "priceRange": "$$$",
+  "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "10:00",
+      "closes": "18:00"
+    }
+  ],
+  "acceptsReservations": "True",
+  "currenciesAccepted": "HKD",
+  "paymentAccepted": ["Cash", "Visa", "Mastercard", "Union Pay", "American Express", "EPS"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "reviewCount": 58,
+    "ratingValue": 4.4
+  }
+}
