@@ -1,6 +1,13 @@
 {
   "@context": "https://schema.org",
   "@type": "HealthAndBeautyBusiness",
+  "isicv4": "9602",
+  "founder": {
+    "@type": "Person",
+    "familyName": "Guilfoyle",
+    "givenName": "Sioban",
+    "gender": "Female"
+  },
   "image": [
     "https://static.wixstatic.com/media/6957cb_7db2e61b282345628ab75a6863756925~mv2.jpeg",
     "https://static.wixstatic.com/media/6957cb_23007357d42f41f7981b782a1ab3ed9c~mv2.jpeg",
@@ -62,12 +69,43 @@
       "closes": "18:00"
     }
   ],
-  "acceptsReservations": "True",
   "currenciesAccepted": "HKD",
   "paymentAccepted": ["Cash", "Visa", "Mastercard", "Union Pay", "American Express", "EPS"],
   "aggregateRating": {
     "@type": "AggregateRating",
     "reviewCount": 58,
     "ratingValue": 4.4
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "address": "Central, Hong Kong",
+    "hasMap": "https://goo.gl/maps/htTxgKH8GNSqvAkUA"
+  },
+  "brand": {
+    "@type": "Brand",
+    "logo": "https://static.wixstatic.com/shapes/a830fb_355d13fcc57649e2aca5625b0cf4323d.svg",
+    "alternateName": ["Glow Spa", "Glow Salon"]
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Reception",
+    "email": "reception@glowspa.hk",
+    "telephone": "25255198",
+    "availableLanguage": [{
+        "@type": "Language",
+        "name": "English",
+        "alternateName": "en"
+      },
+      {
+        "@type": "Language",
+        "name": "Mandarin",
+        "alternateName": "zh-cmn"
+      },
+      {
+        "@type": "Language",
+        "name": "Cantonese",
+        "alternateName": "zh-yue"
+      }
+    ]
   }
 }
