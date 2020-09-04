@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "bhave Keratin Smoothing Service",
+  "image": ["https://static.wixstatic.com/media/6957cb_526640b25b7c4e178dc5ffab10c3a013~mv2.jpg"],
+  "description": "bhave Smoothe Plus treatment is paraben and formaldehyde-free, using raw, rather than heat treated keratin. The keratin is a bioactive keratin protein, gently extracted from New Zealand sheep’s wool, keeping the critical amino acids and proteins as intact as possible. The keratin penetrates the hair shaft and is able to bind to severely damaged hair, supporting the internal structure and restoring strength, elasticity and shine to damaged hair.",
+  "brand": {
+    "@type": "Brand",
+    "name": "bhave",
+    "url": "https://www.bhavehair.com.au/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.glowspa.hk/bhave",
+    "priceCurrency": "HKD",
+    "price": "2600",
+    "priceValidUntil": "2021-12-31",
+    "availability": "InStoreOnly",
+    "seller": {
+      "@type": "Organization",
+      "name": "Glow Hong Kong"
+    },
+    "itemOffered": {
+      "@type": "Service",
+      "name": "bhave Keratin Smoothing Service"
+    }
+  }
+}
