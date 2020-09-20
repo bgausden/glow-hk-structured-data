@@ -1,0 +1,47 @@
+< script type = "application/ld+json"
+  > {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Spray Tan",
+    "image": "https://static.wixstatic.com/media/a830fb_714347931b134565a99a4d86e04786be~mv2.png",
+    "description": "Spray Tan at Glow with either Vani-T or ECO Tan.",
+    "brand": "Glow Hong Kong",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.glowspa.hk/spray-tan",
+      "priceCurrency": "HKD",
+      "price": "580",
+      "priceValidUntil": "2025-12-31",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "1",
+      "reviewCount": "1"
+    },
+    "review": {
+      "@type": "Review",
+      "name": "Vani-T Products",
+      "reviewBody": "love everything i have bought so far. cant wait for my next order. fast delivery too. 😁😁",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "datePublished": "2020-07-10",
+      "author": {
+        "@type": "Person",
+        "name": "Skye Dwyer"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Vani-T"
+      }
+    }
+  }
+  < /script>/
